@@ -1,3 +1,4 @@
+```
 #!/usr/bin/env python3
 """
 Генератор синтетических данных: Складской учёт / Inventory.
@@ -156,6 +157,8 @@ def generate() -> None:
             )
 
     print(f"Сгенерировано {NUM_ROWS} записей → {OUTPUT_FILE}")
+
+```
 
 
 if __name__ == "__main__":
