@@ -1,24 +1,7 @@
-#!/bin/bash
+<img width="820" height="419" alt="image" src="https://github.com/user-attachments/assets/9cc1d34c-42a5-44ae-a240-ea193fde1856" />
 
-# start.sh
-# Задание: Запустить контейнер, создать внутри файл script.py
-# (выводящий "Hello Data Analysis"), выполнить его и получить результат
+<img width="821" height="657" alt="image" src="https://github.com/user-attachments/assets/9e686b50-f8cc-466d-a57c-7220cb17a23b" />
 
-echo "Запуск Docker контейнера и выполнение Python скрипта..."
-echo ""
+<img width="804" height="495" alt="image" src="https://github.com/user-attachments/assets/d1fa5647-1c8e-45e2-91ef-aef43a16bf07" />
 
-# Docker автоматически скачает образ python:3.9-slim, если его нет локально
-# Запускаем контейнер, создаем script.py внутри и выполняем его
-docker run --rm python:3.9-slim sh -c "
-    echo 'Создаю файл script.py...' &&
-    echo 'print(\"Hello Data Analysis\")' > script.py &&
-    echo '' &&
-    echo 'Содержимое script.py:' &&
-    cat script.py &&
-    echo '' &&
-    echo 'Результат выполнения:' &&
-    python script.py
-"
-
-echo ""
-echo "Готово!"
+<img width="868" height="741" alt="image" src="https://github.com/user-attachments/assets/1f94cc61-24ea-49b9-a96c-7fd0bab90d8f" />
