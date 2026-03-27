@@ -1,5 +1,5 @@
 # Docker
-
+```
 #!/bin/bash
 
 # start.sh
@@ -22,6 +22,7 @@ docker run --rm python:3.9-slim sh -c "
     python script.py
 "
 
+```
 echo ""
 echo "Готово!"
 
