@@ -24,3 +24,10 @@ docker run --rm python:3.9-slim sh -c "
 
 echo ""
 echo "Готово!"
+
+
+nano start.sh
+
+chmod +x start.sh
+
+./start.sh
