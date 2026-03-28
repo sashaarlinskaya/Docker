@@ -62,6 +62,13 @@ docker rm $CONTAINER_NAME
 
 echo "Готово!"
 ```
+
+## Ссылка на файл start.sh
+
+Файл скрипта для выполнения индивидуального задания доступен по ссылке:
+
+[https://github.com/sashaarlinskaya/Docker/blob/main/start.sh](https://github.com/sashaarlinskaya/Docker/blob/main/start.sh)
+
 #### 3.2. Настройка прав доступа
 
 Скрипту предоставлены права на выполнение с помощью команды `chmod` и запуск скрипта:
