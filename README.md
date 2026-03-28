@@ -1,10 +1,10 @@
 # CI/CD
 
-## Лабораторные работы
-* laboratornaya rabota
+## Лабораторная работа 1. Установка и настройка Docker. Работа с контейнерами в Docker
 
-1. [Лабораторная работа 1. 1. Установка и настройка Docker. Работа с контейнерами в Docker](/lab_1.md);
-2. [Лабораторная работа 2.1. Создание Dockerfile и сборка образа](/lab_2.md);
+1. ([Отчет 1](https://github.com/sashaarlinskaya/ETL/blob/main/lw1.md))
 
+## Лабораторная работа 2. Создание Dockerfile и сборка образа
+2. ([Отчет 1](https://github.com/sashaarlinskaya/ETL/blob/main/lw1.md))
 
 
