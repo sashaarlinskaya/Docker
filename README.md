@@ -8,4 +8,4 @@
 2. ([Отчет 1](https://github.com/sashaarlinskaya/Docker/blob/main/lab_02.md))
 
 ## Лабораторная работа 3.Развертывание приложения в Kubernetes
-2. ([Отчет 1]())
+2. ([Отчет 1](https://github.com/sashaarlinskaya/Docker/blob/main/lab_03/lab_03_03.md))
