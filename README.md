@@ -7,4 +7,5 @@
 ## Лабораторная работа 2. Создание Dockerfile и сборка образа
 2. ([Отчет 1](https://github.com/sashaarlinskaya/Docker/blob/main/lab_02.md))
 
-
+## Лабораторная работа 3.Развертывание приложения в Kubernetes
+2. ([Отчет 1]())
