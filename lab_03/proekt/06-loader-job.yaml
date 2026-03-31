@@ -1,0 +1,24 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: data-loader
+spec:
+  template:
+    spec:
+      restartPolicy: Never
+      containers:
+      - name: loader
+        image: data-loader:latest
+        imagePullPolicy: Never
+        env:
+        - name: DB_HOST
+          value: "mysql-service"
+        - name: DB_PORT
+          value: "3306"
+        - name: DB_USER
+          value: "root"
+        - name: DB_PASSWORD
+          value: "root123"
+        - name: DB_NAME
+          value: "internet_shop"
+  backoffLimit: 3
