@@ -11,4 +11,4 @@
 3. ([Отчет 3](https://github.com/sashaarlinskaya/Docker/blob/main/lab_03/lab_03_03.md))
 
 ## Лабораторная работа 4. Создание и развертывание полнофункционального приложения
-4. ([Отчет 3](https://github.com/sashaarlinskaya/Docker/blob/main/lab_04/lab_04.md))
+4. ([Отчет 4](https://github.com/sashaarlinskaya/Docker/blob/main/lab_04/lab_04.md))
