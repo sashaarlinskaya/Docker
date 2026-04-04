@@ -23,10 +23,17 @@
 - **Frontend:** Streamlit (Python)
 - **Оркестрация:** Kubernetes (MicroK8s)
 
+**Архитектура проекта:**
+```mermaid
+graph TB
+    User[Пользователь] -->|HTTP:30080| Frontend[Streamlit Frontend]
+    Frontend -->|REST API:8000| Backend[FastAPI Backend]
+    Backend -->|TCP:5432| DB[(PostgreSQL)]
+```
 ---
 
 ## Структура проекта
-
+```
 lab_04.1/
 ├── src/
 │   ├── backend/
@@ -41,7 +48,7 @@ lab_04.1/
 ├── k8s/
 │   └── fullstack.yaml       # Манифесты Kubernetes
 └── lab_04.md               
-
+```
 
 ---
 
